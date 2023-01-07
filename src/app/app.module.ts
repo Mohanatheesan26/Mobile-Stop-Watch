@@ -13,9 +13,9 @@ import { MatListModule } from '@angular/material/list';
 import { HomeComponent } from './home/home.component';
 import { MatCardModule } from '@angular/material/card';
 import { HttpClientModule } from '@angular/common/http';
-import { DetailComponent } from './single-post/single-post.component';
+import { SinglePostComponent } from './single-post/single-post.component';
 @NgModule({
-  declarations: [AppComponent, HomeComponent, DetailComponent],
+  declarations: [AppComponent, HomeComponent, SinglePostComponent],
   imports: [
     HttpClientModule,
     MatCardModule,

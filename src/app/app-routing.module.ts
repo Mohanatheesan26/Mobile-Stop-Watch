@@ -1,4 +1,4 @@
-import { DetailComponent } from './single-post/single-post.component';
+import { SinglePostComponent } from './single-post/single-post.component';
 import { HomeComponent } from './home/home.component';
 import { StopWatchComponent } from './stop-watch/stop-watch.component';
 import { AppComponent } from './app.component';
@@ -12,7 +12,7 @@ const routes: Routes = [
   },
   {
     path: ':id',
-    component: DetailComponent,
+    component: SinglePostComponent,
   },
   {
     path: '',

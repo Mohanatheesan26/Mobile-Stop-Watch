@@ -7,7 +7,7 @@ import { PostService } from 'src/services/post.service';
   templateUrl: './single-post.component.html',
   styleUrls: ['./single-post.component.scss'],
 })
-export class DetailComponent implements OnInit {
+export class SinglePostComponent implements OnInit {
   post: any;
   constructor(public postService: PostService, private router: Router) {}
 
