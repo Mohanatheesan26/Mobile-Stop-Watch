@@ -1,0 +1,24 @@
+<mat-toolbar color="primary">
+
+  <mat-toolbar-row class="tool-bar-row">
+    <span>Mobile Web App</span>
+    <span class="example-spacer"></span>
+
+    <button mat-icon-button class="menu-icon" aria-label="Example icon-button with menu icon" (click)="onClickToggle()">
+      <mat-icon>menu</mat-icon>
+    </button>
+
+    <a class="mat-raised-button fetch-button-one" href="/">Home</a>
+    <a class="mat-raised-button fetch-button-one" href="/stop-watch">Stop Watch</a>
+
+  </mat-toolbar-row>
+
+  <mat-toolbar-row *ngIf="isOpenDrawer" class="second-row tool-bar-row">
+    <a class="mat-raised-button" href=" /">Home</a>
+  </mat-toolbar-row>
+  <mat-toolbar-row *ngIf="isOpenDrawer" class="second-row tool-bar-row">
+    <a class="mat-raised-button" href="/stop-watch">Stop Watch</a>
+  </mat-toolbar-row>
+
+</mat-toolbar>
+<router-outlet></router-outlet>

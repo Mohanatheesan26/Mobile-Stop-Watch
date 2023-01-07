@@ -1,0 +1,23 @@
+.stop-watch {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 5em;
+  padding: 100px;
+}
+
+.control {
+  width: 200px;
+  padding: 15px;
+  margin-top: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  border: 2px solid #182044;
+  border-radius: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+.control:hover {
+  background: #182044;
+  color: aliceblue;
+}

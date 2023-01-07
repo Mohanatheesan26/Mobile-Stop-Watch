@@ -1,0 +1,18 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.scss'],
+})
+export class AppComponent implements OnInit {
+  public isOpenDrawer = false;
+
+  constructor() {}
+
+  ngOnInit(): void {}
+
+  onClickToggle() {
+    this.isOpenDrawer = !this.isOpenDrawer;
+  }
+}
